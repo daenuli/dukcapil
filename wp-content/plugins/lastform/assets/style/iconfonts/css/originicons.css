@@ -1,0 +1,1675 @@
+/*!
+ *  Originicons is a fork of Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'iconFont';
+  src: url('../src/iconFont.eot');
+  src: url('../src/iconFont.eot?#iefix') format('embedded-opentype'), url('../src/iconFont.woff') format('woff'),url('../src/iconFont.woff2') format('woff'), url('../src/iconFont.ttf') format('truetype'), url('../src/iconFont.svg#iconFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: 'iconFont';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+[class*="originicons-"] {
+  font-family: 'iconFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: inherit;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: -8%;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+}
+[class*="originicons-"].smaller {
+  font-size: .7em;
+  vertical-align: 6%;
+}
+[class*="originicons-"].large {
+  font-size: 1.2em;
+  vertical-align: -10%;
+}
+
+.originicons-glass:before {
+  content: "\f000";
+}
+.originicons-music:before {
+  content: "\f001";
+}
+.originicons-search:before {
+  content: "\f002";
+}
+.originicons-envelope-o:before {
+  content: "\f003";
+}
+.originicons-heart:before {
+  content: "\f004";
+}
+.originicons-star:before {
+  content: "\f005";
+}
+.originicons-star-o:before {
+  content: "\f006";
+}
+.originicons-user:before {
+  content: "\f007";
+}
+.originicons-film:before {
+  content: "\f008";
+}
+.originicons-th-large:before {
+  content: "\f009";
+}
+.originicons-th:before {
+  content: "\f00a";
+}
+.originicons-th-list:before {
+  content: "\f00b";
+}
+.originicons-check:before {
+  content: "\f00c";
+}
+.originicons-remove:before,
+.originicons-close:before,
+.originicons-times:before {
+  content: "\f00d";
+}
+.originicons-search-plus:before {
+  content: "\f00e";
+}
+.originicons-search-minus:before {
+  content: "\f010";
+}
+.originicons-power-off:before {
+  content: "\f011";
+}
+.originicons-signal:before {
+  content: "\f012";
+}
+.originicons-gear:before,
+.originicons-cog:before {
+  content: "\f013";
+}
+.originicons-trash-o:before {
+  content: "\f014";
+}
+.originicons-home:before {
+  content: "\f015";
+}
+.originicons-file-o:before {
+  content: "\f016";
+}
+.originicons-clock:before {
+  content: "\f017";
+}
+.originicons-road:before {
+  content: "\f018";
+}
+.originicons-download:before {
+  content: "\f019";
+}
+.originicons-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+.originicons-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+.originicons-inbox:before {
+  content: "\f01c";
+}
+.originicons-play-circle-o:before {
+  content: "\f01d";
+}
+.originicons-rotate-right:before,
+.originicons-repeat:before {
+  content: "\f01e";
+}
+.originicons-refresh:before {
+  content: "\f021";
+}
+.originicons-list-alt:before {
+  content: "\f022";
+}
+.originicons-lock:before {
+  content: "\f023";
+}
+.originicons-flag:before {
+  content: "\f024";
+}
+.originicons-headphones:before {
+  content: "\f025";
+}
+.originicons-volume-off:before {
+  content: "\f026";
+}
+.originicons-volume-down:before {
+  content: "\f027";
+}
+.originicons-volume-up:before {
+  content: "\f028";
+}
+.originicons-qrcode:before {
+  content: "\f029";
+}
+.originicons-barcode:before {
+  content: "\f02a";
+}
+.originicons-tag:before {
+  content: "\f02b";
+}
+.originicons-tags:before {
+  content: "\f02c";
+}
+.originicons-book:before {
+  content: "\f02d";
+}
+.originicons-bookmark:before {
+  content: "\f02e";
+}
+.originicons-print:before {
+  content: "\f02f";
+}
+.originicons-camera:before {
+  content: "\f030";
+}
+.originicons-font:before {
+  content: "\f031";
+}
+.originicons-bold:before {
+  content: "\f032";
+}
+.originicons-italic:before {
+  content: "\f033";
+}
+.originicons-text-height:before {
+  content: "\f034";
+}
+.originicons-text-width:before {
+  content: "\f035";
+}
+.originicons-align-left:before {
+  content: "\f036";
+}
+.originicons-align-center:before {
+  content: "\f037";
+}
+.originicons-align-right:before {
+  content: "\f038";
+}
+.originicons-align-justify:before {
+  content: "\f039";
+}
+.originicons-list:before {
+  content: "\f03a";
+}
+.originicons-dedent:before,
+.originicons-outdent:before {
+  content: "\f03b";
+}
+.originicons-indent:before {
+  content: "\f03c";
+}
+.originicons-video-camera:before {
+  content: "\f03d";
+}
+.originicons-photo:before,
+.originicons-image:before,
+.originicons-picture-o:before {
+  content: "\f03e";
+}
+.originicons-pencil:before {
+  content: "\f040";
+}
+.originicons-map-marker:before {
+  content: "\f041";
+}
+.originicons-adjust:before {
+  content: "\f042";
+}
+.originicons-tint:before {
+  content: "\f043";
+}
+.originicons-edit:before,
+.originicons-pencil-square-o:before {
+  content: "\f044";
+}
+.originicons-share-square-o:before {
+  content: "\f045";
+}
+.originicons-check-square-o:before {
+  content: "\f046";
+}
+.originicons-arrows:before {
+  content: "\f047";
+}
+.originicons-step-backward:before {
+  content: "\f048";
+}
+.originicons-fast-backward:before {
+  content: "\f049";
+}
+.originicons-backward:before {
+  content: "\f04a";
+}
+.originicons-play:before {
+  content: "\f04b";
+}
+.originicons-pause:before {
+  content: "\f04c";
+}
+.originicons-stop:before {
+  content: "\f04d";
+}
+.originicons-forward:before {
+  content: "\f04e";
+}
+.originicons-fast-forward:before {
+  content: "\f050";
+}
+.originicons-step-forward:before {
+  content: "\f051";
+}
+.originicons-eject:before {
+  content: "\f052";
+}
+.originicons-chevron-left:before {
+  content: "\f053";
+}
+.originicons-chevron-right:before {
+  content: "\f054";
+}
+.originicons-plus-circle:before {
+  content: "\f055";
+}
+.originicons-minus-circle:before {
+  content: "\f056";
+}
+.originicons-times-circle:before {
+  content: "\f057";
+}
+.originicons-check-circle:before {
+  content: "\f058";
+}
+.originicons-question-circle:before {
+  content: "\f059";
+}
+.originicons-info-circle:before {
+  content: "\f05a";
+}
+.originicons-crosshairs:before {
+  content: "\f05b";
+}
+.originicons-times-circle-o:before {
+  content: "\f05c";
+}
+.originicons-check-circle-o:before {
+  content: "\f05d";
+}
+.originicons-ban:before {
+  content: "\f05e";
+}
+.originicons-arrow-left:before {
+  content: "\f060";
+}
+.originicons-arrow-right:before {
+  content: "\f061";
+}
+.originicons-arrow-up:before {
+  content: "\f062";
+}
+.originicons-arrow-down:before {
+  content: "\f063";
+}
+.originicons-mail-forward:before,
+.originicons-share:before {
+  content: "\f064";
+}
+.originicons-expand:before {
+  content: "\f065";
+}
+.originicons-compress:before {
+  content: "\f066";
+}
+.originicons-plus:before {
+  content: "\f067";
+}
+.originicons-minus:before {
+  content: "\f068";
+}
+.originicons-asterisk:before {
+  content: "\f069";
+}
+.originicons-exclamation-circle:before {
+  content: "\f06a";
+}
+.originicons-gift:before {
+  content: "\f06b";
+}
+.originicons-leaf:before {
+  content: "\f06c";
+}
+.originicons-fire:before {
+  content: "\f06d";
+}
+.originicons-eye:before {
+  content: "\f06e";
+}
+.originicons-eye-slash:before {
+  content: "\f070";
+}
+.originicons-warning:before,
+.originicons-exclamation-triangle:before {
+  content: "\f071";
+}
+.originicons-plane:before {
+  content: "\f072";
+}
+.originicons-calendar:before {
+  content: "\f073";
+}
+.originicons-random:before {
+  content: "\f074";
+}
+.originicons-comment:before {
+  content: "\f075";
+}
+.originicons-magnet:before {
+  content: "\f076";
+}
+.originicons-chevron-up:before {
+  content: "\f077";
+}
+.originicons-chevron-down:before {
+  content: "\f078";
+}
+.originicons-retweet:before {
+  content: "\f079";
+}
+.originicons-shopping-cart:before {
+  content: "\f07a";
+}
+.originicons-folder:before {
+  content: "\f07b";
+}
+.originicons-folder-open:before {
+  content: "\f07c";
+}
+.originicons-arrows-v:before {
+  content: "\f07d";
+}
+.originicons-arrows-h:before {
+  content: "\f07e";
+}
+.originicons-bar-chart-o:before,
+.originicons-bar-chart:before {
+  content: "\f080";
+}
+.originicons-twitter-square:before {
+  content: "\f081";
+}
+.originicons-facebook-square:before {
+  content: "\f082";
+}
+.originicons-camera-retro:before {
+  content: "\f083";
+}
+.originicons-key:before {
+  content: "\f084";
+}
+.originicons-gears:before,
+.originicons-cogs:before {
+  content: "\f085";
+}
+.originicons-comments:before {
+  content: "\f086";
+}
+.originicons-thumbs-o-up:before {
+  content: "\f087";
+}
+.originicons-thumbs-o-down:before {
+  content: "\f088";
+}
+.originicons-star-half:before {
+  content: "\f089";
+}
+.originicons-heart-o:before {
+  content: "\f08a";
+}
+.originicons-sign-out:before {
+  content: "\f08b";
+}
+.originicons-linkedin-square:before {
+  content: "\f08c";
+}
+.originicons-thumb-tack:before {
+  content: "\f08d";
+}
+.originicons-external-link:before {
+  content: "\f08e";
+}
+.originicons-sign-in:before {
+  content: "\f090";
+}
+.originicons-trophy:before {
+  content: "\f091";
+}
+.originicons-github-square:before {
+  content: "\f092";
+}
+.originicons-upload:before {
+  content: "\f093";
+}
+.originicons-lemon-o:before {
+  content: "\f094";
+}
+.originicons-phone:before {
+  content: "\f095";
+}
+.originicons-square-o:before {
+  content: "\f096";
+}
+.originicons-bookmark-o:before {
+  content: "\f097";
+}
+.originicons-phone-square:before {
+  content: "\f098";
+}
+.originicons-twitter:before {
+  content: "\f099";
+}
+.originicons-facebook-f:before,
+.originicons-facebook:before {
+  content: "\f09a";
+}
+.originicons-github:before {
+  content: "\f09b";
+}
+.originicons-unlock:before {
+  content: "\f09c";
+}
+.originicons-credit-card:before {
+  content: "\f09d";
+}
+.originicons-rss:before {
+  content: "\f09e";
+}
+.originicons-hdd-o:before {
+  content: "\f0a0";
+}
+.originicons-bullhorn:before {
+  content: "\f0a1";
+}
+.originicons-bell:before {
+  content: "\f0f3";
+}
+.originicons-certificate:before {
+  content: "\f0a3";
+}
+.originicons-hand-o-right:before {
+  content: "\f0a4";
+}
+.originicons-hand-o-left:before {
+  content: "\f0a5";
+}
+.originicons-hand-o-up:before {
+  content: "\f0a6";
+}
+.originicons-hand-o-down:before {
+  content: "\f0a7";
+}
+.originicons-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.originicons-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.originicons-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.originicons-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.originicons-globe:before {
+  content: "\f0ac";
+}
+.originicons-wrench:before {
+  content: "\f0ad";
+}
+.originicons-tasks:before {
+  content: "\f0ae";
+}
+.originicons-filter:before {
+  content: "\f0b0";
+}
+.originicons-briefcase:before {
+  content: "\f0b1";
+}
+.originicons-arrows-alt:before {
+  content: "\f0b2";
+}
+.originicons-group:before,
+.originicons-users:before {
+  content: "\f0c0";
+}
+.originicons-chain:before,
+.originicons-link:before {
+  content: "\f0c1";
+}
+.originicons-cloud:before {
+  content: "\f0c2";
+}
+.originicons-flask:before {
+  content: "\f0c3";
+}
+.originicons-cut:before,
+.originicons-scissors:before {
+  content: "\f0c4";
+}
+.originicons-copy:before,
+.originicons-files-o:before {
+  content: "\f0c5";
+}
+.originicons-paperclip:before {
+  content: "\f0c6";
+}
+.originicons-save:before,
+.originicons-floppy-o:before {
+  content: "\f0c7";
+}
+.originicons-square:before {
+  content: "\f0c8";
+}
+.originicons-navicon:before,
+.originicons-reorder:before,
+.originicons-bars:before {
+  content: "\f0c9";
+}
+.originicons-list-ul:before {
+  content: "\f0ca";
+}
+.originicons-list-ol:before {
+  content: "\f0cb";
+}
+.originicons-strikethrough:before {
+  content: "\f0cc";
+}
+.originicons-underline:before {
+  content: "\f0cd";
+}
+.originicons-table:before {
+  content: "\f0ce";
+}
+.originicons-magic:before {
+  content: "\f0d0";
+}
+.originicons-truck:before {
+  content: "\f0d1";
+}
+.originicons-pinterest:before {
+  content: "\f0d2";
+}
+.originicons-pinterest-square:before {
+  content: "\f0d3";
+}
+.originicons-google-plus-square:before {
+  content: "\f0d4";
+}
+.originicons-google-plus:before {
+  content: "\f0d5";
+}
+.originicons-money:before {
+  content: "\f0d6";
+}
+.originicons-caret-down:before {
+  content: "\f0d7";
+}
+.originicons-caret-up:before {
+  content: "\f0d8";
+}
+.originicons-caret-left:before {
+  content: "\f0d9";
+}
+.originicons-caret-right:before {
+  content: "\f0da";
+}
+.originicons-columns:before {
+  content: "\f0db";
+}
+.originicons-unsorted:before,
+.originicons-sort:before {
+  content: "\f0dc";
+}
+.originicons-sort-down:before,
+.originicons-sort-desc:before {
+  content: "\f0dd";
+}
+.originicons-sort-up:before,
+.originicons-sort-asc:before {
+  content: "\f0de";
+}
+.originicons-envelope:before {
+  content: "\f0e0";
+}
+.originicons-linkedin:before {
+  content: "\f0e1";
+}
+.originicons-rotate-left:before,
+.originicons-undo:before {
+  content: "\f0e2";
+}
+.originicons-legal:before,
+.originicons-gavel:before {
+  content: "\f0e3";
+}
+.originicons-dashboard:before,
+.originicons-tachometer:before {
+  content: "\f0e4";
+}
+.originicons-comment-o:before {
+  content: "\f0e5";
+}
+.originicons-comments-o:before {
+  content: "\f0e6";
+}
+.originicons-flash:before,
+.originicons-bolt:before {
+  content: "\f0e7";
+}
+.originicons-sitemap:before {
+  content: "\f0e8";
+}
+.originicons-umbrella:before {
+  content: "\f0e9";
+}
+.originicons-paste:before,
+.originicons-clipboard:before {
+  content: "\f0ea";
+}
+.originicons-lightbulb-o:before {
+  content: "\f0eb";
+}
+.originicons-exchange:before {
+  content: "\f0ec";
+}
+.originicons-cloud-download:before {
+  content: "\f0ed";
+}
+.originicons-cloud-upload:before {
+  content: "\f0ee";
+}
+.originicons-user-md:before {
+  content: "\f0f0";
+}
+.originicons-stethoscope:before {
+  content: "\f0f1";
+}
+.originicons-suitcase:before {
+  content: "\f0f2";
+}
+.originicons-bell-o:before {
+  content: "\f0a2";
+}
+.originicons-coffee:before {
+  content: "\f0f4";
+}
+.originicons-cutlery:before {
+  content: "\f0f5";
+}
+.originicons-file-text-o:before {
+  content: "\f0f6";
+}
+.originicons-building-o:before {
+  content: "\f0f7";
+}
+.originicons-hospital-o:before {
+  content: "\f0f8";
+}
+.originicons-ambulance:before {
+  content: "\f0f9";
+}
+.originicons-medkit:before {
+  content: "\f0fa";
+}
+.originicons-fighter-jet:before {
+  content: "\f0fb";
+}
+.originicons-beer:before {
+  content: "\f0fc";
+}
+.originicons-h-square:before {
+  content: "\f0fd";
+}
+.originicons-plus-square:before {
+  content: "\f0fe";
+}
+.originicons-angle-double-left:before {
+  content: "\f100";
+}
+.originicons-angle-double-right:before {
+  content: "\f101";
+}
+.originicons-angle-double-up:before {
+  content: "\f102";
+}
+.originicons-angle-double-down:before {
+  content: "\f103";
+}
+.originicons-angle-left:before {
+  content: "\f104";
+}
+.originicons-angle-right:before {
+  content: "\f105";
+}
+.originicons-angle-up:before {
+  content: "\f106";
+}
+.originicons-angle-down:before {
+  content: "\f107";
+}
+.originicons-desktop:before {
+  content: "\f108";
+}
+.originicons-laptop:before {
+  content: "\f109";
+}
+.originicons-tablet:before {
+  content: "\f10a";
+}
+.originicons-mobile-phone:before,
+.originicons-mobile:before {
+  content: "\f10b";
+}
+.originicons-circle-o:before {
+  content: "\f10c";
+}
+.originicons-quote-left:before {
+  content: "\f10d";
+}
+.originicons-quote-right:before {
+  content: "\f10e";
+}
+.originicons-spinner:before {
+  content: "\f110";
+}
+.originicons-circle:before {
+  content: "\f111";
+}
+.originicons-mail-reply:before,
+.originicons-reply:before {
+  content: "\f112";
+}
+.originicons-github-alt:before {
+  content: "\f113";
+}
+.originicons-folder-o:before {
+  content: "\f114";
+}
+.originicons-folder-open-o:before {
+  content: "\f115";
+}
+.originicons-smile-o:before {
+  content: "\f118";
+}
+.originicons-frown-o:before {
+  content: "\f119";
+}
+.originicons-meh-o:before {
+  content: "\f11a";
+}
+.originicons-gamepad:before {
+  content: "\f11b";
+}
+.originicons-keyboard-o:before {
+  content: "\f11c";
+}
+.originicons-flag-o:before {
+  content: "\f11d";
+}
+.originicons-flag-checkered:before {
+  content: "\f11e";
+}
+.originicons-terminal:before {
+  content: "\f120";
+}
+.originicons-code:before {
+  content: "\f121";
+}
+.originicons-mail-reply-all:before,
+.originicons-reply-all:before {
+  content: "\f122";
+}
+.originicons-star-half-empty:before,
+.originicons-star-half-full:before,
+.originicons-star-half-o:before {
+  content: "\f123";
+}
+.originicons-location-arrow:before {
+  content: "\f124";
+}
+.originicons-crop:before {
+  content: "\f125";
+}
+.originicons-code-fork:before {
+  content: "\f126";
+}
+.originicons-unlink:before,
+.originicons-chain-broken:before {
+  content: "\f127";
+}
+.originicons-question:before {
+  content: "\f128";
+}
+.originicons-info:before {
+  content: "\f129";
+}
+.originicons-exclamation:before {
+  content: "\f12a";
+}
+.originicons-superscript:before {
+  content: "\f12b";
+}
+.originicons-subscript:before {
+  content: "\f12c";
+}
+.originicons-eraser:before {
+  content: "\f12d";
+}
+.originicons-puzzle-piece:before {
+  content: "\f12e";
+}
+.originicons-microphone:before {
+  content: "\f130";
+}
+.originicons-microphone-slash:before {
+  content: "\f131";
+}
+.originicons-shield:before {
+  content: "\f132";
+}
+.originicons-calendar-o:before {
+  content: "\f133";
+}
+.originicons-fire-extinguisher:before {
+  content: "\f134";
+}
+.originicons-rocket:before {
+  content: "\f135";
+}
+.originicons-maxcdn:before {
+  content: "\f136";
+}
+.originicons-chevron-circle-left:before {
+  content: "\f137";
+}
+.originicons-chevron-circle-right:before {
+  content: "\f138";
+}
+.originicons-chevron-circle-up:before {
+  content: "\f139";
+}
+.originicons-chevron-circle-down:before {
+  content: "\f13a";
+}
+.originicons-html5:before {
+  content: "\f13b";
+}
+.originicons-css3:before {
+  content: "\f13c";
+}
+.originicons-anchor:before {
+  content: "\f13d";
+}
+.originicons-unlock-alt:before {
+  content: "\f13e";
+}
+.originicons-bullseye:before {
+  content: "\f140";
+}
+.originicons-ellipsis-h:before {
+  content: "\f141";
+}
+.originicons-ellipsis-v:before {
+  content: "\f142";
+}
+.originicons-rss-square:before {
+  content: "\f143";
+}
+.originicons-play-circle:before {
+  content: "\f144";
+}
+.originicons-ticket:before {
+  content: "\f145";
+}
+.originicons-minus-square:before {
+  content: "\f146";
+}
+.originicons-minus-square-o:before {
+  content: "\f147";
+}
+.originicons-level-up:before {
+  content: "\f148";
+}
+.originicons-level-down:before {
+  content: "\f149";
+}
+.originicons-check-square:before {
+  content: "\f14a";
+}
+.originicons-pencil-square:before {
+  content: "\f14b";
+}
+.originicons-external-link-square:before {
+  content: "\f14c";
+}
+.originicons-share-square:before {
+  content: "\f14d";
+}
+.originicons-compass:before {
+  content: "\f14e";
+}
+.originicons-toggle-down:before,
+.originicons-caret-square-o-down:before {
+  content: "\f150";
+}
+.originicons-toggle-up:before,
+.originicons-caret-square-o-up:before {
+  content: "\f151";
+}
+.originicons-toggle-right:before,
+.originicons-caret-square-o-right:before {
+  content: "\f152";
+}
+.originicons-euro:before,
+.originicons-eur:before {
+  content: "\f153";
+}
+.originicons-gbp:before {
+  content: "\f154";
+}
+.originicons-dollar:before,
+.originicons-usd:before {
+  content: "\f155";
+}
+.originicons-rupee:before,
+.originicons-inr:before {
+  content: "\f156";
+}
+.originicons-cny:before,
+.originicons-rmb:before,
+.originicons-yen:before,
+.originicons-jpy:before {
+  content: "\f157";
+}
+.originicons-ruble:before,
+.originicons-rouble:before,
+.originicons-rub:before {
+  content: "\f158";
+}
+.originicons-won:before,
+.originicons-krw:before {
+  content: "\f159";
+}
+.originicons-bitcoin:before,
+.originicons-btc:before {
+  content: "\f15a";
+}
+.originicons-file:before {
+  content: "\f15b";
+}
+.originicons-file-text:before {
+  content: "\f15c";
+}
+.originicons-sort-alpha-asc:before {
+  content: "\f15d";
+}
+.originicons-sort-alpha-desc:before {
+  content: "\f15e";
+}
+.originicons-sort-amount-asc:before {
+  content: "\f160";
+}
+.originicons-sort-amount-desc:before {
+  content: "\f161";
+}
+.originicons-sort-numeric-asc:before {
+  content: "\f162";
+}
+.originicons-sort-numeric-desc:before {
+  content: "\f163";
+}
+.originicons-thumbs-up:before {
+  content: "\f164";
+}
+.originicons-thumbs-down:before {
+  content: "\f165";
+}
+.originicons-youtube-square:before {
+  content: "\f166";
+}
+.originicons-youtube:before {
+  content: "\f167";
+}
+.originicons-xing:before {
+  content: "\f168";
+}
+.originicons-xing-square:before {
+  content: "\f169";
+}
+.originicons-youtube-play:before {
+  content: "\f16a";
+}
+.originicons-dropbox:before {
+  content: "\f16b";
+}
+.originicons-stack-overflow:before {
+  content: "\f16c";
+}
+.originicons-instagram:before {
+  content: "\f16d";
+}
+.originicons-flickr:before {
+  content: "\f16e";
+}
+.originicons-adn:before {
+  content: "\f170";
+}
+.originicons-bitbucket:before {
+  content: "\f171";
+}
+.originicons-bitbucket-square:before {
+  content: "\f172";
+}
+.originicons-tumblr:before {
+  content: "\f173";
+}
+.originicons-tumblr-square:before {
+  content: "\f174";
+}
+.originicons-long-arrow-down:before {
+  content: "\f175";
+}
+.originicons-long-arrow-up:before {
+  content: "\f176";
+}
+.originicons-long-arrow-left:before {
+  content: "\f177";
+}
+.originicons-long-arrow-right:before {
+  content: "\f178";
+}
+.originicons-apple:before {
+  content: "\f179";
+}
+.originicons-windows:before {
+  content: "\f17a";
+}
+.originicons-android:before {
+  content: "\f17b";
+}
+.originicons-linux:before {
+  content: "\f17c";
+}
+.originicons-dribbble:before {
+  content: "\f17d";
+}
+.originicons-skype:before {
+  content: "\f17e";
+}
+.originicons-foursquare:before {
+  content: "\f180";
+}
+.originicons-trello:before {
+  content: "\f181";
+}
+.originicons-female:before {
+  content: "\f182";
+}
+.originicons-male:before {
+  content: "\f183";
+}
+.originicons-gittip:before,
+.originicons-gratipay:before {
+  content: "\f184";
+}
+.originicons-sun-o:before {
+  content: "\f185";
+}
+.originicons-moon-o:before {
+  content: "\f186";
+}
+.originicons-archive:before {
+  content: "\f187";
+}
+.originicons-bug:before {
+  content: "\f188";
+}
+.originicons-vk:before {
+  content: "\f189";
+}
+.originicons-weibo:before {
+  content: "\f18a";
+}
+.originicons-renren:before {
+  content: "\f18b";
+}
+.originicons-pagelines:before {
+  content: "\f18c";
+}
+.originicons-stack-exchange:before {
+  content: "\f18d";
+}
+.originicons-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+.originicons-arrow-circle-o-left:before {
+  content: "\f190";
+}
+.originicons-toggle-left:before,
+.originicons-caret-square-o-left:before {
+  content: "\f191";
+}
+.originicons-dot-circle-o:before {
+  content: "\f192";
+}
+.originicons-wheelchair:before {
+  content: "\f193";
+}
+.originicons-vimeo-square:before {
+  content: "\f194";
+}
+.originicons-turkish-lira:before,
+.originicons-try:before {
+  content: "\f195";
+}
+.originicons-plus-square-o:before {
+  content: "\f196";
+}
+.originicons-space-shuttle:before {
+  content: "\f197";
+}
+.originicons-slack:before {
+  content: "\f198";
+}
+.originicons-envelope-square:before {
+  content: "\f199";
+}
+.originicons-wordpress:before {
+  content: "\f19a";
+}
+.originicons-openid:before {
+  content: "\f19b";
+}
+.originicons-institution:before,
+.originicons-bank:before,
+.originicons-university:before {
+  content: "\f19c";
+}
+.originicons-mortar-board:before,
+.originicons-graduation-cap:before {
+  content: "\f19d";
+}
+.originicons-yahoo:before {
+  content: "\f19e";
+}
+.originicons-google:before {
+  content: "\f1a0";
+}
+.originicons-reddit:before {
+  content: "\f1a1";
+}
+.originicons-reddit-square:before {
+  content: "\f1a2";
+}
+.originicons-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.originicons-stumbleupon:before {
+  content: "\f1a4";
+}
+.originicons-delicious:before {
+  content: "\f1a5";
+}
+.originicons-digg:before {
+  content: "\f1a6";
+}
+.originicons-pied-piper:before {
+  content: "\f1a7";
+}
+.originicons-pied-piper-alt:before {
+  content: "\f1a8";
+}
+.originicons-drupal:before {
+  content: "\f1a9";
+}
+.originicons-joomla:before {
+  content: "\f1aa";
+}
+.originicons-language:before {
+  content: "\f1ab";
+}
+.originicons-fax:before {
+  content: "\f1ac";
+}
+.originicons-building:before {
+  content: "\f1ad";
+}
+.originicons-child:before {
+  content: "\f1ae";
+}
+.originicons-paw:before {
+  content: "\f1b0";
+}
+.originicons-spoon:before {
+  content: "\f1b1";
+}
+.originicons-cube:before {
+  content: "\f1b2";
+}
+.originicons-cubes:before {
+  content: "\f1b3";
+}
+.originicons-behance:before {
+  content: "\f1b4";
+}
+.originicons-behance-square:before {
+  content: "\f1b5";
+}
+.originicons-steam:before {
+  content: "\f1b6";
+}
+.originicons-steam-square:before {
+  content: "\f1b7";
+}
+.originicons-recycle:before {
+  content: "\f1b8";
+}
+.originicons-automobile:before,
+.originicons-car:before {
+  content: "\f1b9";
+}
+.originicons-cab:before,
+.originicons-taxi:before {
+  content: "\f1ba";
+}
+.originicons-tree:before {
+  content: "\f1bb";
+}
+.originicons-spotify:before {
+  content: "\f1bc";
+}
+.originicons-deviantart:before {
+  content: "\f1bd";
+}
+.originicons-soundcloud:before {
+  content: "\f1be";
+}
+.originicons-database:before {
+  content: "\f1c0";
+}
+.originicons-file-pdf-o:before {
+  content: "\f1c1";
+}
+.originicons-file-word-o:before {
+  content: "\f1c2";
+}
+.originicons-file-excel-o:before {
+  content: "\f1c3";
+}
+.originicons-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+.originicons-file-photo-o:before,
+.originicons-file-picture-o:before,
+.originicons-file-image-o:before {
+  content: "\f1c5";
+}
+.originicons-file-zip-o:before,
+.originicons-file-archive-o:before {
+  content: "\f1c6";
+}
+.originicons-file-sound-o:before,
+.originicons-file-audio-o:before {
+  content: "\f1c7";
+}
+.originicons-file-movie-o:before,
+.originicons-file-video-o:before {
+  content: "\f1c8";
+}
+.originicons-file-code-o:before {
+  content: "\f1c9";
+}
+.originicons-vine:before {
+  content: "\f1ca";
+}
+.originicons-codepen:before {
+  content: "\f1cb";
+}
+.originicons-jsfiddle:before {
+  content: "\f1cc";
+}
+.originicons-life-bouy:before,
+.originicons-life-buoy:before,
+.originicons-life-saver:before,
+.originicons-support:before,
+.originicons-life-ring:before {
+  content: "\f1cd";
+}
+.originicons-circle-o-notch:before {
+  content: "\f1ce";
+}
+.originicons-ra:before,
+.originicons-rebel:before {
+  content: "\f1d0";
+}
+.originicons-ge:before,
+.originicons-empire:before {
+  content: "\f1d1";
+}
+.originicons-git-square:before {
+  content: "\f1d2";
+}
+.originicons-git:before {
+  content: "\f1d3";
+}
+.originicons-hacker-news:before {
+  content: "\f1d4";
+}
+.originicons-tencent-weibo:before {
+  content: "\f1d5";
+}
+.originicons-qq:before {
+  content: "\f1d6";
+}
+.originicons-wechat:before,
+.originicons-weixin:before {
+  content: "\f1d7";
+}
+.originicons-send:before,
+.originicons-paper-plane:before {
+  content: "\f1d8";
+}
+.originicons-send-o:before,
+.originicons-paper-plane-o:before {
+  content: "\f1d9";
+}
+.originicons-history:before {
+  content: "\f1da";
+}
+.originicons-genderless:before,
+.originicons-circle-thin:before {
+  content: "\f1db";
+}
+.originicons-header:before {
+  content: "\f1dc";
+}
+.originicons-paragraph:before {
+  content: "\f1dd";
+}
+.originicons-sliders:before {
+  content: "\f1de";
+}
+.originicons-share-alt:before {
+  content: "\f1e0";
+}
+.originicons-share-alt-square:before {
+  content: "\f1e1";
+}
+.originicons-bomb:before {
+  content: "\f1e2";
+}
+.originicons-soccer-ball-o:before,
+.originicons-futbol-o:before {
+  content: "\f1e3";
+}
+.originicons-tty:before {
+  content: "\f1e4";
+}
+.originicons-binoculars:before {
+  content: "\f1e5";
+}
+.originicons-plug:before {
+  content: "\f1e6";
+}
+.originicons-slideshare:before {
+  content: "\f1e7";
+}
+.originicons-twitch:before {
+  content: "\f1e8";
+}
+.originicons-yelp:before {
+  content: "\f1e9";
+}
+.originicons-newspaper-o:before {
+  content: "\f1ea";
+}
+.originicons-wifi:before {
+  content: "\f1eb";
+}
+.originicons-calculator:before {
+  content: "\f1ec";
+}
+.originicons-paypal:before {
+  content: "\f1ed";
+}
+.originicons-google-wallet:before {
+  content: "\f1ee";
+}
+.originicons-cc-visa:before {
+  content: "\f1f0";
+}
+.originicons-cc-mastercard:before {
+  content: "\f1f1";
+}
+.originicons-cc-discover:before {
+  content: "\f1f2";
+}
+.originicons-cc-amex:before {
+  content: "\f1f3";
+}
+.originicons-cc-paypal:before {
+  content: "\f1f4";
+}
+.originicons-cc-stripe:before {
+  content: "\f1f5";
+}
+.originicons-bell-slash:before {
+  content: "\f1f6";
+}
+.originicons-bell-slash-o:before {
+  content: "\f1f7";
+}
+.originicons-trash:before {
+  content: "\f1f8";
+}
+.originicons-copyright:before {
+  content: "\f1f9";
+}
+.originicons-at:before {
+  content: "\f1fa";
+}
+.originicons-eyedropper:before {
+  content: "\f1fb";
+}
+.originicons-paint-brush:before {
+  content: "\f1fc";
+}
+.originicons-birthday-cake:before {
+  content: "\f1fd";
+}
+.originicons-area-chart:before {
+  content: "\f1fe";
+}
+.originicons-pie-chart:before {
+  content: "\f200";
+}
+.originicons-line-chart:before {
+  content: "\f201";
+}
+.originicons-lastfm:before {
+  content: "\f202";
+}
+.originicons-lastfm-square:before {
+  content: "\f203";
+}
+.originicons-toggle-off:before {
+  content: "\f204";
+}
+.originicons-toggle-on:before {
+  content: "\f205";
+}
+.originicons-bicycle:before {
+  content: "\f206";
+}
+.originicons-bus:before {
+  content: "\f207";
+}
+.originicons-ioxhost:before {
+  content: "\f208";
+}
+.originicons-angellist:before {
+  content: "\f209";
+}
+.originicons-cc:before {
+  content: "\f20a";
+}
+.originicons-shekel:before,
+.originicons-sheqel:before,
+.originicons-ils:before {
+  content: "\f20b";
+}
+.originicons-meanpath:before {
+  content: "\f20c";
+}
+.originicons-buysellads:before {
+  content: "\f20d";
+}
+.originicons-connectdevelop:before {
+  content: "\f20e";
+}
+.originicons-dashcube:before {
+  content: "\f210";
+}
+.originicons-forumbee:before {
+  content: "\f211";
+}
+.originicons-leanpub:before {
+  content: "\f212";
+}
+.originicons-sellsy:before {
+  content: "\f213";
+}
+.originicons-shirtsinbulk:before {
+  content: "\f214";
+}
+.originicons-simplybuilt:before {
+  content: "\f215";
+}
+.originicons-skyatlas:before {
+  content: "\f216";
+}
+.originicons-cart-plus:before {
+  content: "\f217";
+}
+.originicons-cart-arrow-down:before {
+  content: "\f218";
+}
+.originicons-diamond:before {
+  content: "\f219";
+}
+.originicons-ship:before {
+  content: "\f21a";
+}
+.originicons-user-secret:before {
+  content: "\f21b";
+}
+.originicons-motorcycle:before {
+  content: "\f21c";
+}
+.originicons-street-view:before {
+  content: "\f21d";
+}
+.originicons-heartbeat:before {
+  content: "\f21e";
+}
+.originicons-venus:before {
+  content: "\f221";
+}
+.originicons-mars:before {
+  content: "\f222";
+}
+.originicons-mercury:before {
+  content: "\f223";
+}
+.originicons-transgender:before {
+  content: "\f224";
+}
+.originicons-transgender-alt:before {
+  content: "\f225";
+}
+.originicons-venus-double:before {
+  content: "\f226";
+}
+.originicons-mars-double:before {
+  content: "\f227";
+}
+.originicons-venus-mars:before {
+  content: "\f228";
+}
+.originicons-mars-stroke:before {
+  content: "\f229";
+}
+.originicons-mars-stroke-v:before {
+  content: "\f22a";
+}
+.originicons-mars-stroke-h:before {
+  content: "\f22b";
+}
+.originicons-neuter:before {
+  content: "\f22c";
+}
+.originicons-facebook-official:before {
+  content: "\f230";
+}
+.originicons-pinterest-p:before {
+  content: "\f231";
+}
+.originicons-whatsapp:before {
+  content: "\f232";
+}
+.originicons-server:before {
+  content: "\f233";
+}
+.originicons-user-plus:before {
+  content: "\f234";
+}
+.originicons-user-times:before {
+  content: "\f235";
+}
+.originicons-hotel:before,
+.originicons-bed:before {
+  content: "\f236";
+}
+.originicons-viacoin:before {
+  content: "\f237";
+}
+.originicons-train:before {
+  content: "\f238";
+}
+.originicons-subway:before {
+  content: "\f239";
+}
+.originicons-medium:before {
+  content: "\f23a";
+}
